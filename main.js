@@ -10,10 +10,12 @@ const hamburgerMenu = document.querySelector ('.hamburger-menu');
 const headerRight = document.querySelector ('i');
 
 
-function  () {
+
+headerRight.addEventListener('click', function{
     if (hamburgerMenu.style.display === "block") {
-        hamburgerMenu.style.display = "none";
     } else {
-        hamburgerMenu.style.display = "block";
+        hamburgerMenu.style.display = "none";
     }
-}
+})
+
+
